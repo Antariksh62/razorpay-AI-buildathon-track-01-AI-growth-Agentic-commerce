@@ -69,23 +69,23 @@ graph TD
         Razorpay_Cloud["Official Razorpay Merchant Dashboard"]
     end
 
-    UI_Header -->|Mint / Update Mandate| Policy_Engine
-    UI_Kill -->|Revoke Mandate Access| DB_WAL
-    UI_Chat -->|User Prompt| Agent_NLU
+    UI_Header -->|"Mint / Update Mandate"| Policy_Engine
+    UI_Kill -->|"Revoke Mandate Access"| DB_WAL
+    UI_Chat -->|"User Prompt"| Agent_NLU
     Agent_NLU --> Agent_Typo
     Agent_Typo --> Agent_Validate
     Agent_Validate --> Agent_Joint
     Agent_Joint --> Agent_Cart
-    Agent_Cart -->|Stage Cart Quote| Policy_Engine
+    Agent_Cart -->|"Stage Cart Quote"| Policy_Engine
     Policy_Engine --> Policy_JIT
     Policy_JIT --> Policy_Spend
     Policy_Spend --> Policy_TTL
-    Policy_TTL -->|Authorize (Verdict: ALLOWED)| Razorpay_SDK
-    Razorpay_SDK -->|client.order.create| Razorpay_Cloud
-    Policy_Engine -->|Log Audit Event| DB_WAL
+    Policy_TTL -->|"Authorize Verdict: ALLOWED"| Razorpay_SDK
+    Razorpay_SDK -->|"client.order.create"| Razorpay_Cloud
+    Policy_Engine -->|"Log Audit Event"| DB_WAL
     DB_WAL --> SSE_Bus
-    SSE_Bus -->|Real-Time Event Stream| UI_Audit
-    Razorpay_SDK -->|Order Receipt & Dashboard Deep-Link| UI_Chat
+    SSE_Bus -->|"Real-Time Event Stream"| UI_Audit
+    Razorpay_SDK -->|"Order Receipt & Dashboard Deep-Link"| UI_Chat
 ```
 
 ---
