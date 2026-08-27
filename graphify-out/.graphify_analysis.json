@@ -1,0 +1,223 @@
+{
+  "communities": {
+    "0": [
+      "backend_schemas_mandateconfig",
+      "frontend_app",
+      "frontend_audit_console",
+      "frontend_chat_interface",
+      "frontend_src_app_jsx",
+      "frontend_src_components_auditconsole_jsx",
+      "frontend_src_main_jsx",
+      "frontend_src_services_api_js",
+      "services_api_apiclient",
+      "services_api_getauditlogs",
+      "services_api_sendchatmessage",
+      "services_api_subscribeauditstream",
+      "services_api_updatemandate",
+      "src_app_app"
+    ],
+    "1": [
+      "backend_agent",
+      "backend_agent_agentorchestrator_init",
+      "backend_database",
+      "backend_main",
+      "backend_policy",
+      "backend_policy_rationale_6",
+      "backend_schemas",
+      "lib_fastapi",
+      "lib_google_genai",
+      "lib_razorpay",
+      "readme_policy_engine"
+    ],
+    "2": [
+      "backend_database_add_audit_log",
+      "backend_database_get_active_mandate",
+      "backend_database_get_db_connection",
+      "backend_database_init_db",
+      "backend_database_mark_mandate_used",
+      "backend_database_py",
+      "backend_policy_evaluate_cart_quote",
+      "backend_policy_evaluate_catalog_search",
+      "backend_policy_evaluate_checkout_intent",
+      "backend_policy_py",
+      "services_api_getmandate"
+    ],
+    "3": [
+      "backend_database_get_recent_audit_logs",
+      "backend_main_audit_stream",
+      "backend_main_fetch_audit_logs",
+      "backend_main_fetch_mandate",
+      "backend_main_handle_chat",
+      "backend_main_on_startup",
+      "backend_main_py",
+      "backend_main_rationale_101",
+      "backend_main_read_root",
+      "services_api_getcatalog"
+    ],
+    "4": [
+      "backend_schemas_auditlog",
+      "backend_schemas_catalogitem",
+      "backend_schemas_chatrequest",
+      "backend_schemas_chatresponse",
+      "backend_schemas_checkoutrequest",
+      "backend_schemas_mandateresponse",
+      "backend_schemas_py",
+      "backend_schemas_quoterequest",
+      "backend_schemas_quoteresponse",
+      "basemodel"
+    ],
+    "5": [
+      "backend_agent_agentorchestrator_process_prompt",
+      "backend_agent_create_cart_quote",
+      "backend_agent_execute_razorpay_checkout",
+      "backend_agent_py",
+      "backend_agent_rationale_120",
+      "backend_agent_rationale_218",
+      "backend_agent_rationale_31",
+      "backend_agent_rationale_68",
+      "backend_agent_search_merchant_catalog"
+    ],
+    "6": [
+      "readme_razorpay_ai_buildathon_2026",
+      "readme_track_01"
+    ],
+    "7": [
+      "backend_policy_rationale_49"
+    ],
+    "8": [
+      "frontend_postcss_config_js"
+    ],
+    "9": [
+      "frontend_tailwind_config_js"
+    ],
+    "10": [
+      "frontend_vite_config_js"
+    ]
+  },
+  "cohesion": {
+    "0": 0.23,
+    "1": 0.2,
+    "2": 0.38,
+    "3": 0.22,
+    "4": 0.36,
+    "5": 0.28,
+    "6": 1.0,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0
+  },
+  "gods": [
+    {
+      "id": "backend_database_get_db_connection",
+      "label": "get_db_connection()",
+      "degree": 10
+    },
+    {
+      "id": "backend_database_add_audit_log",
+      "label": "add_audit_log()",
+      "degree": 8
+    },
+    {
+      "id": "services_api_getmandate",
+      "label": "getMandate()",
+      "degree": 8
+    },
+    {
+      "id": "backend_agent",
+      "label": "AI Agent Orchestrator",
+      "degree": 7
+    },
+    {
+      "id": "backend_schemas_mandateconfig",
+      "label": "MandateConfig",
+      "degree": 6
+    },
+    {
+      "id": "backend_main",
+      "label": "FastAPI Server",
+      "degree": 5
+    },
+    {
+      "id": "backend_agent_search_merchant_catalog",
+      "label": "search_merchant_catalog()",
+      "degree": 4
+    },
+    {
+      "id": "backend_agent_create_cart_quote",
+      "label": "create_cart_quote()",
+      "degree": 4
+    },
+    {
+      "id": "backend_agent_execute_razorpay_checkout",
+      "label": "execute_razorpay_checkout()",
+      "degree": 4
+    },
+    {
+      "id": "backend_database_init_db",
+      "label": "init_db()",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "AI Agent Orchestrator",
+      "target": "Declarative Policy Engine",
+      "source_files": [
+        "backend/agent.py",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 code); connects across different repos/directories"
+    },
+    {
+      "source": "Antigravity Declarative Policy Engine for Agentic Commerce.     Enforces bounded",
+      "target": "Declarative Policy Engine",
+      "source_files": [
+        "backend/policy.py",
+        "README.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "rationale_for",
+      "why": "crosses file types (code \u2194 doc); connects across different repos/directories"
+    },
+    {
+      "source": "AI Agent Orchestrator",
+      "target": "Google GenAI SDK",
+      "source_files": [
+        "backend/agent.py",
+        "backend/requirements.txt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code \u2194 doc); peripheral node `Google GenAI SDK` unexpectedly reaches hub `AI Agent Orchestrator`"
+    },
+    {
+      "source": "FastAPI Server",
+      "target": "FastAPI",
+      "source_files": [
+        "backend/main.py",
+        "backend/requirements.txt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "implements",
+      "why": "crosses file types (code \u2194 doc); peripheral node `FastAPI` unexpectedly reaches hub `FastAPI Server`"
+    },
+    {
+      "source": "React Split-Screen UI",
+      "target": "FastAPI Server",
+      "source_files": [
+        "frontend/src/App.jsx",
+        "backend/main.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 2607,
+    "output": 1475
+  }
+}
