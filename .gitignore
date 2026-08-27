@@ -35,3 +35,4 @@ agentic_commerce.db
 Thumbs.db
 *.log
 tmp/
+graphify-out/
