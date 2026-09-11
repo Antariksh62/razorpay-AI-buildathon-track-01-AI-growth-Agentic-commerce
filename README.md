@@ -18,7 +18,7 @@
          alt="YouTube"
          style="vertical-align: middle;">
   </a>
-  : <a href="https://www.youtube.com/watch?v=s5AUBDkuels" target="_blank">Video Link</a>
+   : <a href="https://www.youtube.com/watch?v=s5AUBDkuels" target="_blank">  Video Link</a>
 </p>
 
 ## 1. Overview & Core Philosophy
