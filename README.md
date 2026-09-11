@@ -3,17 +3,18 @@
 > **Razorpay AI Buildathon Submission — Track 01: Agentic Commerce**  
 > *A zero-trust financial execution sandbox that decouples autonomous AI shopping from deterministic financial authorization using real Razorpay SDK integrations and declarative policy hooks.*
 
-<a href="https://www.youtube.com/watch?v=s5AUBDkuels">
-  <strong>Watch Demo : </strong>
-  <img src="https://cdn.simpleicons.org/youtube/FF0000" width="35" alt="YouTube">
-</a>
-
 [![Track 01](https://img.shields.io/badge/Track-01%3A%20Agentic%20Commerce-blue?style=for-the-badge&logo=razorpay)](https://razorpay.com)
 [![Razorpay SDK](https://img.shields.io/badge/Razorpay-Python%20SDK%201.4%2B-02042B?style=for-the-badge&logo=razorpay)](https://github.com/razorpay/razorpay-python)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/Frontend-React%2018%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
 [![Database](https://img.shields.io/badge/Database-SQLite%20WAL%20Mode-003B57?style=for-the-badge&logo=sqlite)](https://sqlite.org)
 [![Audit Stream](https://img.shields.io/badge/Stream-Server--Sent%20Events%20%28SSE%29-FF6F00?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events)
+
+Watch demonstration on
+<a href="https://www.youtube.com/watch?v=s5AUBDkuels">
+  <img src="https://cdn.simpleicons.org/youtube/FF0000" width="20" alt="YouTube">
+</a>
+: <a href="https://www.youtube.com/watch?v=s5AUBDkuels">Video Link</a>
 
 ---
 
