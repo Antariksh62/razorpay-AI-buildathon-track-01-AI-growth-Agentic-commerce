@@ -15,11 +15,11 @@
   Watch demonstration on
   <a href="https://www.youtube.com/watch?v=s5AUBDkuels"
      target="_blank"
-     style="text-decoration: none;">
+     style="display:inline-flex; align-items:center; vertical-align:middle; text-decoration:none; border:none;">
     <img src="https://cdn.simpleicons.org/youtube/FF0000"
-         width="28"
+         height="24"
          alt="YouTube"
-         style="vertical-align: middle;">
+         style="display:block;">
   </a>
   : <a href="https://www.youtube.com/watch?v=s5AUBDkuels" target="_blank">Video Link</a>
 </h3>
