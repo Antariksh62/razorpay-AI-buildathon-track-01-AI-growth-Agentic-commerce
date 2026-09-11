@@ -16,7 +16,7 @@
     <img src="https://cdn.simpleicons.org/youtube/FF0000" width="24" height="24" alt="YouTube" align="middle">
   </a>
   &nbsp;&nbsp;
-  <a href="https://www.youtube.com/watch?v=s5AUBDkuels">Video Link</a>
+  <a href="https://www.youtube.com/watch?v=s5AUBDkuels">  Video Link</a>
 </p>
 
 ## 1. Overview & Core Philosophy
