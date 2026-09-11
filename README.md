@@ -11,18 +11,11 @@
 [![Audit Stream](https://img.shields.io/badge/Stream-Server--Sent%20Events%20%28SSE%29-FF6F00?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events)
 
 
-<h3>
+<h2>
   Watch demonstration on
-  <a href="https://www.youtube.com/watch?v=s5AUBDkuels"
-     target="_blank"
-     style="display:inline-flex; align-items:center; vertical-align:middle; text-decoration:none; border:none;">
-    <img src="https://cdn.simpleicons.org/youtube/FF0000"
-         height="24"
-         alt="YouTube"
-         style="display:block;">
-  </a>
+  <img src="https://cdn.simpleicons.org/youtube/FF0000" height="20" align="absmiddle" alt="YouTube">
   : <a href="https://www.youtube.com/watch?v=s5AUBDkuels" target="_blank">Video Link</a>
-</h3>
+</h2>
 
 
 
