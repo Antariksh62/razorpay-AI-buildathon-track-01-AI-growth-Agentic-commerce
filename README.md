@@ -3,7 +3,9 @@
 > **Razorpay AI Buildathon Submission — Track 01: Agentic Commerce**  
 > *A zero-trust financial execution sandbox that decouples autonomous AI shopping from deterministic financial authorization using real Razorpay SDK integrations and declarative policy hooks.*
 
-YOUTUBE VIDEO DEMONSTRATION : https://www.youtube.com/watch?v=s5AUBDkuels
+### 🎥 YouTube Video Demonstration
+[![YouTube](https://cdn.simpleicons.org/youtube/FF0000)](https://www.youtube.com/watch?v=s5AUBDkuels)
+
 
 [![Track 01](https://img.shields.io/badge/Track-01%3A%20Agentic%20Commerce-blue?style=for-the-badge&logo=razorpay)](https://razorpay.com)
 [![Razorpay SDK](https://img.shields.io/badge/Razorpay-Python%20SDK%201.4%2B-02042B?style=for-the-badge&logo=razorpay)](https://github.com/razorpay/razorpay-python)
