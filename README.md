@@ -13,10 +13,7 @@
 <p>
   Watch demonstration on
   <a href="https://www.youtube.com/watch?v=s5AUBDkuels" target="_blank">
-    <img src="https://cdn.simpleicons.org/youtube/FF0000"
-         width="24"
-         alt="YouTube"
-         style="vertical-align: middle;">
+    YouTube
   </a>
    : <a href="https://www.youtube.com/watch?v=s5AUBDkuels" target="_blank">  Video Link</a>
 </p>
