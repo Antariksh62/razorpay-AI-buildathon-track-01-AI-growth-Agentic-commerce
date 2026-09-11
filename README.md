@@ -14,7 +14,7 @@ Watch demonstration on
 <a href="https://www.youtube.com/watch?v=s5AUBDkuels">
   <img src="https://cdn.simpleicons.org/youtube/FF0000" width="30" alt="YouTube">
 </a>
-: <a href="https://www.youtube.com/watch?v=s5AUBDkuels">Video Link</a>
+  :  <a href="https://www.youtube.com/watch?v=s5AUBDkuels"> Video Link</a>
 
 ---
 
