@@ -4,8 +4,8 @@
 > *A zero-trust financial execution sandbox that decouples autonomous AI shopping from deterministic financial authorization using real Razorpay SDK integrations and declarative policy hooks.*
 
 <a href="https://www.youtube.com/watch?v=s5AUBDkuels">
+  <strong>Watch Demo : </strong>
   <img src="https://cdn.simpleicons.org/youtube/FF0000" width="35" alt="YouTube">
-  <strong> Watch Demo</strong>
 </a>
 
 [![Track 01](https://img.shields.io/badge/Track-01%3A%20Agentic%20Commerce-blue?style=for-the-badge&logo=razorpay)](https://razorpay.com)
