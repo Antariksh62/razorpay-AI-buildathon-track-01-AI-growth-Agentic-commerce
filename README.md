@@ -11,12 +11,14 @@
 [![Audit Stream](https://img.shields.io/badge/Stream-Server--Sent%20Events%20%28SSE%29-FF6F00?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events)
 
 <p>
-  Watch demonstration on&nbsp;
-  <a href="https://www.youtube.com/watch?v=s5AUBDkuels">
-    <img src="https://cdn.simpleicons.org/youtube/FF0000" width="24" height="24" alt="YouTube" align="middle">
+  Watch demonstration on
+  <a href="https://www.youtube.com/watch?v=s5AUBDkuels" target="_blank">
+    <img src="https://cdn.simpleicons.org/youtube/FF0000"
+         width="24"
+         alt="YouTube"
+         style="vertical-align: middle;">
   </a>
-  &nbsp;&nbsp;
-  <a href="https://www.youtube.com/watch?v=s5AUBDkuels">  Video Link</a>
+  : <a href="https://www.youtube.com/watch?v=s5AUBDkuels" target="_blank">Video Link</a>
 </p>
 
 ## 1. Overview & Core Philosophy
