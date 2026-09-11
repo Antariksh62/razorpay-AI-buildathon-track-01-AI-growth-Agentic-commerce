@@ -10,6 +10,7 @@
 [![Database](https://img.shields.io/badge/Database-SQLite%20WAL%20Mode-003B57?style=for-the-badge&logo=sqlite)](https://sqlite.org)
 [![Audit Stream](https://img.shields.io/badge/Stream-Server--Sent%20Events%20%28SSE%29-FF6F00?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events)
 
+
 <h3>
   Watch demonstration on
   <a href="https://www.youtube.com/watch?v=s5AUBDkuels"
@@ -22,6 +23,8 @@
   </a>
   : <a href="https://www.youtube.com/watch?v=s5AUBDkuels" target="_blank">Video Link</a>
 </h3>
+
+
 
 ## 1. Overview & Core Philosophy
 
